@@ -1,0 +1,64 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+  <table id="catalog">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Carrie</td>
+        <td>Stephen King</td>
+        <td>Horror</td>
+        <td>1975</td>
+      </tr>
+      <tr>
+        <td>The Stand</td>
+        <td>Stephen King</td>
+        <td>Horror</td>
+        <td>1980</td>
+      </tr>
+      <tr>
+        <td>Mr. Mercedes: A Novel </td>
+        <td>Stephen King</td>
+        <td>Suspense</td>
+        <td>2015</td>
+      </tr>
+      <tr>
+        <td>Python Distilled</td>
+        <td>Dave Beazley</td>
+        <td>Non-fiction</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td>Python for Finance Cookbook</td>
+        <td>Eryk Lewinson</td>
+        <td>Non-fiction</td>
+        <td>2022</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <td colspan="4">Total Books: 5</td>
+    </tfoot>
+
+  </table>
+</body>
+
+</html>
+
+** end of index.html **
+

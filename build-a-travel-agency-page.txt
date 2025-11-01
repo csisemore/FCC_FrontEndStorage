@@ -1,0 +1,46 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="non-blank">
+    <title>Travel Agency Page</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+  <h1>Travel Opportunities</h1>
+  <p>Things to see in Den Haag (The Hague)</p>
+  <h2>Packages</h2>
+  <p>Package One</p>
+    <ul>
+<li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+      <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+
+    </ul>
+  <h2>Top Itineraries</h2>
+<figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://www.touropia.com/gfx/d/the-hague-attractions/peace_palace.jpg" alt="Peace Palace">
+      </a>
+      <figcaption>Peace Palace</figcaption>
+    </figure>
+<figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://thehague.hotelindigo.com/wp-content/uploads/ferris-wheel-beach.jpg" alt="Scheveningen Beach pier">
+      </a>
+      <figcaption>Scheveningen Beach</figcaption>
+    </figure>
+<figure>
+      <a href="https://www.freecodecamp.org/learn" target="_blank">
+        <img src="https://media.indebuurt.nl/denhaag/2022/09/16140841/Paleistuin-1024x683.jpg" alt="Aerial View of Den Haag">
+      </a>
+      <figcaption>Aerial View of Den Haag</figcaption>
+    </figure>
+    
+  </figure>
+</body>
+</html>
+
+** end of index.html **
+

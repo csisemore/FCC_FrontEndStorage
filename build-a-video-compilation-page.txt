@@ -1,0 +1,49 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+<body>
+    <main>
+        <h1>Python Videos</h1>
+        <p>Assorted videos about Python from FreeCodeCamp.</p>
+        <section>
+        <h2>Section 1</h2>
+        <p>A beginnning Python class/tutorial. The run length is 4:40.</p>
+        <iframe
+        title="Python for Beginners"
+        width="560"
+        height="315"
+        src="https://youtu.be/eWRfhZUzrAc?si=ZlIJkpDNK0V1lPma">
+        </iframe>
+        </section>
+        <section>
+        <h2>Section 2</h2>
+        <p>A University Python course with a runtime of 13:40.</p>
+        <iframe 
+        title="Python for Everybody"
+        width="560"
+        height="315"
+        src="https://youtu.be/8DvywoWv6fI?si=MhOA3AuYfV_Gfnkf">
+        </iframe>
+        </section>
+        <section>
+        <h2>Section 3</h2>
+        <p>An almost 6-hour intermediate Python class. The runtime is 5:55.</p>
+        <iframe
+            title="Intermediate Python Programming Course"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/HGOBQPFzWKo"
+            allowfullscreen>
+        </iframe>
+        </section>
+    </main>
+</body>
+</html>
+
+** end of index.html **
+
