@@ -1,0 +1,158 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Form — Labeled Inputs</title>
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    .container { max-width: 480px; margin: 0 auto; font-family: Arial, sans-serif; padding: 16px; }
+    label { display: block; margin: 8px 0 4px; }
+    input, select, textarea { width:100%; padding:8px; margin-bottom:12px; }
+    fieldset.radio-group { border:1px solid #ddd; padding:12px; }
+    .radio-row { display:flex; gap:12px; align-items:center; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <form>
+
+      <label>
+        Full Name
+        <input type="text" id="name" name="name" required>
+      </label>
+
+      <label>
+        Email Address
+        <input type="email" id="email" name="email" required>
+      </label>
+
+
+      <label for="position">Position</label>
+      <select id="position" name="position" required>
+        <option value="">-- Select a Position --</option>
+        <option value="developer">Developer</option>
+        <option value="designer">Designer</option>
+        <option value="manager">Manager</option>
+      </select>
+
+
+      <fieldset class="radio-group">
+        <legend>Availability</legend>
+
+        <div class="radio-row">
+      
+      <input type="radio" id="fulltime" name="availability">
+      <label for="fulltime">Full-Time</label>
+
+      
+       <input type="radio" id="parttime" name="availability" value="part">
+       <label for="parttime">Part-Time</label> 
+        </div>
+
+      </fieldset>
+
+
+      <label>
+        Message
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </label>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:first-of-type {
+  border-radius: 20px;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: dodgerblue;
+  outline: none;
+}
+
+input:focus, textarea:focus {
+  border-color: blue;
+  outline: none;
+}
+
+
+input:invalid, select:invalid, textarea:invalid {
+  border-color: red;
+}
+
+input:valid, select:valid, textarea:valid {
+  border-color: green;
+}
+
+.radio-group {
+  border: 1px solid limegreen;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.radio-group input[type="radio"] {
+  accent-color: magenta;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  color: limegreen;
+  font-weight: bold;
+  border-color: limegreen;
+
+}
+
+.radio-group input[type="radio"]:checked {
+  box-shadow: 0 0 5px dodgerblue;
+  background-color: cyan;
+  border: 2px solid green;
+}
+
+button[type="submit"]:hover {
+  background-color: cyan;
+}
+button:hover {
+  background-color: cyan;
+}
+
+button[type="submit"] {
+  padding: 12px 20px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+** end of styles.css **
+
