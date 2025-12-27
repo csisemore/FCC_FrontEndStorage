@@ -1,2 +1,2 @@
 # FCC_FrontEndStorage
-Storage for the HTML and CSS code.
+Storage for the HTML, CSS, and JS code.
